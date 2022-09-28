@@ -1,0 +1,69 @@
+{
+	"name": "hi,app2",
+	"id": "app2",
+	"version": "1.0.2",
+	"description": "剥离出来的K线界面",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"hooksClass": "com.example.app2.app.Kline_AppProxy",
+			"plugins": [{
+				"type": "module",
+				"name": "app2",
+				"class": "com.example.app2.kline.TestModule"
+			}],
+			"integrateType": "aar",
+			"compileOptions": {
+				"sourceCompatibility": "1.8",
+				"targetCompatibility": "1.8"
+			},
+			"abis": [
+				"armeabi-v7a,arm64-v8a"
+			],
+			"minSdkVersion": "23",
+			"useAndroidX": true,
+			"dependencies": [
+				"androidx.constraintlayout:constraintlayout:2.1.4",
+				"com.google.android.material:material:1.0.1",
+				"androidx.recyclerview:recyclerview:1.0.0",
+				"androidx.legacy:legacy-support-v4:1.0.0",
+				"androidx.appcompat:appcompat:1.0.0",
+				"com.alibaba:fastjson:1.1.46.android",
+				"com.facebook.fresco:fresco:1.13.0",
+				"androidx.cardview:cardview:1.0.0",
+				"com.jakewharton:butterknife:10.2.3",
+				"com.yanzhenjie:permission:1.1.0",
+				"com.google.code.gson:gson:2.8.2",
+				"com.squareup.okhttp3:okhttp:3.12.0",
+				"com.github.bumptech.glide:glide:4.11.0",
+				"com.youth.banner:banner:1.4.10",
+				"com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34",
+				"com.gyf.barlibrary:barlibrary:2.3.0",
+				"com.lcodecorex:tkrefreshlayout:1.0.7",
+				"com.jakewharton:butterknife-compiler:10.2.3",
+				"com.kyleduo.switchbutton:library:2.0.0",
+				"com.geetest.sensebot:sensebot:4.2.4",
+				"org.xutils:xutils:3.5.0",
+				"org.greenrobot:eventbus:3.1.1",
+				"com.yanzhenjie:recyclerview-swipe:1.1.4",
+				"com.sunfusheng:marqueeview:1.3.3",
+				"com.xw.repo:bubbleseekbar:3.20",
+				"com.contrarywind:Android-PickerView:4.1.4",
+				"androidx.multidex:multidex:2.0.0",
+				"com.scwang.smartrefresh:SmartRefreshLayout:1.1.0",
+				"com.scwang.smartrefresh:SmartRefreshHeader:1.1.0",
+				"com.blankj:utilcode:1.28.1",
+				"com.tencent.bugly:crashreport:latest.release",
+				"com.squareup.okhttp3:logging-interceptor:3.10.0",
+				"com.orhanobut:logger:2.2.0",
+				"com.scwang.smart:refresh-layout-kernel:2.0.1",
+				"com.scwang.smart:refresh-header-classics:2.0.1",
+				"com.scwang.smart:refresh-footer-classics:2.0.1",
+				"de.hdodenhof:circleimageview:3.0.1",
+				"com.tencent:mmkv-static:1.2.7",
+				"com.github.arcadefire:nice-spinner:1.3.1"
+
+			]
+		}
+	}
+}

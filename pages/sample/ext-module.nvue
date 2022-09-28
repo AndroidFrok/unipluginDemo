@@ -1,0 +1,66 @@
+<template>
+	<div>
+		<button type="primary" @click="testAsyncFunc">testAsyncFunc</button>
+		<button type="primary" @click="testSyncFunc">testSyncFunc</button>
+		<button type="primary" @click="gotoNativePage">跳转原生Activity</button>
+		<button type="primary" @click="gotoNativePage1">跳芋头丸的界面</button>
+		<button type="primary" @click="gas">插件gas</button>
+		<button type="primary" @click="gotoAd">激励广告</button>
+	</div>
+</template>
+
+<script>
+	// 获取 module 
+	var testModule = uni.requireNativePlugin("uniplugin_module"); //TestModule  uniplugin_module
+	var app2 = uni.requireNativePlugin("app2");
+	var gasModule = uni.requireNativePlugin("gas");
+	const modal = uni.requireNativePlugin('modal');
+	export default {
+		onLoad() {
+			plus.globalEvent.addEventListener('TestEvent', function(e) {
+				modal.toast({
+					message: "TestEvent收到：" + e.msg,
+					duration: 1.5
+				});
+			});
+		},
+		methods: {
+			testAsyncFunc() {
+				// 调用异步方法
+				testModule.testAsyncFunc({
+						'name': 'unimp',
+						'age': 1
+					},
+					(ret) => {
+						modal.toast({
+							message: ret,
+							duration: 1.5
+						});
+					})
+			},
+			testSyncFunc() {
+				// 调用同步方法
+				var ret = testModule.testSyncFunc({
+					'name': 'unimp',
+					'age': 1
+				})
+				modal.toast({
+					message: ret,
+					duration: 1.5
+				});
+			},
+			gotoNativePage() {
+				testModule.gotoNativePage();
+			},
+			gotoNativePage1() {
+				app2.gotoNativePage();
+			},
+			gas() {
+				gasModule.gotoNativePage();
+			},
+			gotoAd() {
+				gasModule.gotoReward();
+			}
+		}
+	}
+</script>

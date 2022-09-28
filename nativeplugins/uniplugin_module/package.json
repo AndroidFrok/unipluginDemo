@@ -1,0 +1,27 @@
+{
+	"name": "测试安卓插件",
+	"id": "uniplugin_module",
+	"version": "1.0.2",
+	"description": "安卓插件",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"hooksClass": "io.dcloud.uniplugin.My_AppProxy",
+			"plugins": [{
+				"type": "module",
+				"name": "uniplugin_module",
+				"class": "io.dcloud.uniplugin.TestModule"
+			}],
+			"integrateType": "aar",
+			"compileOptions": {
+				"sourceCompatibility": "1.8",
+				"targetCompatibility": "1.8"
+			},
+			"abis": [
+				"armeabi-v7a,arm64-v8a"
+			],
+			"minSdkVersion": "21",
+			"useAndroidX": true
+		}
+	}
+}
