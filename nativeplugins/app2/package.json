@@ -24,7 +24,7 @@
 			"useAndroidX": true,
 			"dependencies": [
 				"androidx.constraintlayout:constraintlayout:2.1.4",
-				"com.google.android.material:material:1.0.1",
+				"com.google.android.material:material:1.4.0",
 				"androidx.recyclerview:recyclerview:1.0.0",
 				"androidx.legacy:legacy-support-v4:1.0.0",
 				"androidx.appcompat:appcompat:1.0.0",

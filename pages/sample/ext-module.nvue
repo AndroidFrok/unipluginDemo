@@ -3,9 +3,9 @@
 		<button type="primary" @click="testAsyncFunc">testAsyncFunc</button>
 		<button type="primary" @click="testSyncFunc">testSyncFunc</button>
 		<button type="primary" @click="gotoNativePage">跳转原生Activity</button>
-		<button type="primary" @click="gotoNativePage1">跳芋头丸的界面</button>
+		<button type="primary" @click="gotoNativePage1">跳k线</button>
 		<button type="primary" @click="gas">插件gas</button>
-		<button type="primary" @click="gotoAd">激励广告</button>
+		<button type="primary" @click="gotoAd">gotoAd</button>
 	</div>
 </template>
 
@@ -56,7 +56,7 @@
 				app2.gotoNativePage();
 			},
 			gas() {
-				gasModule.gotoNativePage();
+				// gasModule.gotoNativePage();
 			},
 			gotoAd() {
 				gasModule.gotoReward();
