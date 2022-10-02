@@ -1,16 +1,16 @@
 {
-	"name": "轮子哥框架封插件",
+	"name": "id=gas",
 	"id": "gas",
 	"version": "1.0.2",
-	"description": "轮子哥",
+	"description": "轮子哥框架封插件",
 	"_dp_type": "nativeplugin",
 	"_dp_nativeplugin": {
 		"android": {
-			"hooksClass": "com.example.gas.Gas_AppProxy",
+			"hooksClass": "com.juhui.gas.Gas_AppProxy",
 			"plugins": [{
 				"type": "module",
 				"name": "gas",
-				"class": "com.example.gas.TestModule"
+				"class": "com.juhui.gas.TestModule"
 			}],
 			"integrateType": "aar",
 			"compileOptions": {
