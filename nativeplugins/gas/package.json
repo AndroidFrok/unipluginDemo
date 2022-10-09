@@ -23,8 +23,30 @@
 			"minSdkVersion": "21",
 			"useAndroidX": true,
 			"dependencies": [
+				"com.squareup.retrofit2:converter-gson:2.4.0",
+				"com.squareup.retrofit2:retrofit:2.4.0",
 				"com.tencent:mmkv:1.2.14",
-				"com.github.kongzue.DialogX:DialogX:0.0.43"
+				"com.github.kongzue.DialogX:DialogX:0.0.43",
+				"androidx.constraintlayout:constraintlayout:2.1.4",
+				"androidx.appcompat:appcompat:1.1.0",
+				"com.google.android.material:material:1.4.0",
+				"com.github.jenly1314:zxing-lite:2.1.1",
+				"com.github.getActivity:TitleBar:9.2",
+				"com.github.getActivity:ToastUtils:9.5",
+				"org.greenrobot:eventbus:3.2.0",
+				"com.scwang.smart:refresh-layout-kernel:2.0.3",
+				"com.scwang.smart:refresh-header-material:2.0.3",
+				"com.github.Jay-huangjie:EasyKeyBoardView:v1.6",
+				"com.github.getActivity:XXPermissions:12.3",
+				"com.squareup.okhttp3:okhttp:3.12.13",
+				"com.github.getActivity:ShapeView:6.0",
+				"com.github.bumptech.glide:glide:4.12.0",
+				"androidx.annotation:annotation:1.2.0",
+				"com.gyf.immersionbar:immersionbar:3.0.0",
+				"com.github.Baseflow:PhotoView:2.3.0",
+				"com.airbnb.android:lottie:4.1.0",
+				"me.relex:circleindicator:2.1.6"
+
 			]
 		}
 	}

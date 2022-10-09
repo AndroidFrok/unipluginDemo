@@ -56,7 +56,7 @@
 				app2.gotoNativePage();
 			},
 			gas() {
-				// gasModule.gotoNativePage();
+				gasModule.gotoNativePage();
 			},
 			gotoAd() {
 				gasModule.gotoReward();

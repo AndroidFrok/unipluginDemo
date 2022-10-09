@@ -33,6 +33,7 @@
 				"androidx.cardview:cardview:1.0.0",
 				"com.jakewharton:butterknife:10.2.3",
 				"com.yanzhenjie:permission:1.1.0",
+				"com.github.Jay-huangjie:EasyKeyBoardView:v1.6",
 				"com.google.code.gson:gson:2.8.2",
 				"com.squareup.okhttp3:okhttp:3.12.0",
 				"com.github.bumptech.glide:glide:4.11.0",
