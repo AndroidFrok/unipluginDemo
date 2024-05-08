@@ -56,6 +56,34 @@
             }
         },
         "nativePlugins" : {
+            "uniplugin_module" : {
+                "__plugin_info__" : {
+                    "name" : "测试安卓插件",
+                    "description" : "安卓插件",
+                    "platforms" : "Android",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
+            },
+            "app2" : {
+                "__plugin_info__" : {
+                    "name" : "hi,app2",
+                    "description" : "剥离出来的K线界面",
+                    "platforms" : "Android",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
+            },
             "gas" : {
                 "__plugin_info__" : {
                     "name" : "id=gas",

@@ -50,6 +50,9 @@
 				});
 			},
 			gotoNativePage() {
+				/* uni.showToast({
+					title: "aabbcc"
+				}) */
 				testModule.gotoNativePage();
 			},
 			gotoNativePage1() {

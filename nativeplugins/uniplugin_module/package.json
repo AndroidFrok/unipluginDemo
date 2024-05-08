@@ -6,7 +6,6 @@
 	"_dp_type": "nativeplugin",
 	"_dp_nativeplugin": {
 		"android": {
-			"hooksClass": "io.dcloud.uniplugin.My_AppProxy",
 			"plugins": [{
 				"type": "module",
 				"name": "uniplugin_module",
